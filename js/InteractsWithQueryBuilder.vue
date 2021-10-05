@@ -144,9 +144,9 @@ export default {
         strictNullHandling: true,
       });
 
-      if (!query || query === "page=1") {
+      /*if (!query || query === "page=1") {
         query = "remember=forget";
-      }
+      }*/
 
       return query;
     },
